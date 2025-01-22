@@ -1,0 +1,47 @@
+-- Question 17: Create table `employees` with constraints
+CREATE TABLE IF NOT EXISTS employees (
+    employee_id INT NOT NULL UNIQUE PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    job_id INT,
+    salary DECIMAL(10, 2),
+    FOREIGN KEY (job_id) REFERENCES jobs(job_id)
+        ON DELETE RESTRICT
+        ON UPDATE CASCADE
+) ENGINE=InnoDB;
+
+-- Question 18: Create table `employees` with ON DELETE CASCADE
+CREATE TABLE IF NOT EXISTS employees (
+    employee_id INT NOT NULL UNIQUE PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    job_id INT,
+    salary DECIMAL(10, 2),
+    FOREIGN KEY (job_id) REFERENCES jobs(job_id)
+        ON DELETE CASCADE
+        ON UPDATE RESTRICT
+) ENGINE=InnoDB;
+
+-- Question 19: Create table `employees` with ON DELETE SET NULL
+CREATE TABLE IF NOT EXISTS employees (
+    employee_id INT NOT NULL UNIQUE PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    job_id INT,
+    salary DECIMAL(10, 2),
+    FOREIGN KEY (job_id) REFERENCES jobs(job_id)
+        ON DELETE SET NULL
+        ON UPDATE SET NULL
+) ENGINE=InnoDB;
+
+-- Question 20: Create table `employees` with NO ACTION constraints
+CREATE TABLE IF NOT EXISTS employees (
+    employee_id INT NOT NULL UNIQUE PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    job_id INT,
+    salary DECIMAL(10, 2),
+    FOREIGN KEY (job_id) REFERENCES jobs(job_id)
+        ON DELETE NO ACTION
+        ON UPDATE NO ACTION
+) ENGINE=InnoDB;
