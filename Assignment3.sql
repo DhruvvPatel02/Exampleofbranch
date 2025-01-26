@@ -90,6 +90,28 @@ SELECT DEPARTMENT, COUNT(*) AS Worker_Count FROM Worker GROUP BY DEPARTMENT ORDE
 
 SELECT * FROM Worker LIMIT 10
 
+-- Scalar Function Example
+
+SELECT UPPER(FIRST_NAME) AS Uppercase_Name FROM Worker;
+
+SELECT LOWER(LAST_NAME) AS Lowercase_Name FROM Worker;
+
+-- Aggregate Function Example
+
+SELECT COUNT(*) AS Total_Workers FROM Worker;
+
+SELECT SUM(SALARY) AS Total_Salary FROM Worker;
+
+SELECT AVG(SALARY) AS Average_Salary FROM Worker;
+
+SELECT MAX(SALARY) AS Highest_Salary FROM Worker;
+
+SELECT MIN(SALARY) AS Lowest_Salary FROM Worker;
+
+-- Group BY with Aggregate Function
+
+SELECT DEPARTMENT, COUNT(*) AS Worker_Count, AVG(SALARY) AS Average_Salary FROM Worker GROUP BY DEPARTMENT;
+
 
 
 
