@@ -1,0 +1,28 @@
+-- Insert data for person
+INSERT INTO person (driver_id, name, address) VALUES
+(1, 'John Smith', '123 Main St'),
+(2, 'Alice Johnson', '456 Oak Ave'),
+(3, 'Bob Williams', '789 Pine Ln');
+
+-- Insert data for car
+INSERT INTO car (license, model, year) VALUES
+('AABB1000', 'Toyota Camry', 1988),
+('AABB2000', 'Mazda Miata', 1990),
+('AABB3000', 'Honda Civic', 1989);
+
+-- Insert data for accident
+INSERT INTO accident (report_number, date, location) VALUES
+('AR1234', '1989-05-10', 'Main St & 1st Ave'),
+('AR2197', '1990-03-15', 'Oak Ave & 5th St');
+
+-- Insert data for owns
+INSERT INTO owns (driver_id, license) VALUES
+(1, 'AABB1000'),
+(1, 'AABB2000'),
+(2, 'AABB3000');
+
+-- Insert data for participated
+INSERT INTO participated (driver_id, license, report_number, damage_amount) VALUES
+(1, 'AABB1000', 'AR1234', 1000.00),
+(1, 'AABB2000', 'AR2197', 2000.00),
+(2, 'AABB3000', 'AR1234', 500.00);
