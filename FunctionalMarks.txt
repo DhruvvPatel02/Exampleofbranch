@@ -1,0 +1,70 @@
+Functional Marks:
+
+Stock Manager Introduction: 15
+KIS E2E flow: 15
+Paper flow: 14
+Morning Checks 1: 12.5  
+avg - 14.125
+
+
+VIOOH Application KT 1: 15
+VIOOH Application KT 2: 15.5
+Distribution Bric, Exclusions: 11
+GeoMapper and VisualPlanner: 14.5
+avg - 14
+
+
+VIOOH Automation Application KT 3: 15
+Flatwhite and VIOOH Automation Properties: 15
+Workbench/ PhpMyAdmin and Automation related tables: 13
+Application on Datapoint: 15.5
+Automation related table - Part 2: 14
+avg - 14.5
+
+
+User Manager Workflow: 14
+Understanding on Automation integration with downstream application: 13/17
+Introduction to VIOOH Central: 18.5
+VIOOH Content Overview E2E & Content Logs: 14
+CCD Dashboard E2E: 17.5
+avg - 16.3
+
+
+Booking and POP Flow: 19.5
+Connecting Athena and walkthrough useful Athena tables: 17
+Introduction to VIOOH Automation - API: 18
+E2E API Campaign flow via logs: 17
+Introduction of VIOOH Exchange: 19.5
+avg - 18.2
+
+Overview of VIOOH Exchange UI and its tabs: 17.5
+Introduction to VIOOH TM UI & Its tabs: 12.5
+Overview of Pacing Dashboard: 15
+TMUI Labs Report: 16.5
+avg - 15.375
+
+Assets in Programmatic - VIOOH Exchange  & VIOOH TMUI: 19
+Deal Types in Programmatic - VIOOH Exchange  & VIOOH TMUI: 10
+Creatives in Programmatic - VIOOH Exchange  & VIOOH TMUI: 20
+E2E of Deal Trading - VIOOH Exchange: 16
+QuickSight and POP Reports:18
+avg - 16.6
+
+Overview of RTB, FSAS and SMEX-2 dashboards: 18
+Introduction to AdServer and its components: 18.5
+Overview of Deal Monitoring: 16
+E2E of Deal Trading - VIOOH AdServer: 18
+Introduction to JIRA & Confluence, VIOOH jira process: 11
+avg - 16.3
+
+Overview SMEX-2: 16.5
+JSM - Jira Service Management Overview: 20
+JSM - SR Workflow: 20
+JSM - Incident Workflow: 18
+KT Session : Datadog: 20
+avg - 18.9
+
+Overview of Statuscast and its types: 20
+Collaboration of support with other teams - Devs, QA, infra: 20
+
+Total - 713.5/877 >> 81.35%
